@@ -1,4 +1,4 @@
-import { Image } from 'cloudinary-react';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -6,9 +6,10 @@ export default function Home() {
       <div>
         <h2>Responsive</h2>
         <Image
-          cloudName='dn3baky3u'
-          publicId='v1576797449/gatsby-cloudinary/evora-gt-front'
-          width='auto'
+          src='https://res.cloudinary.com/dn3baky3u/image/upload/v1580246844/gatsby-cloudinary/evora-gt-side.jpg'
+          width={2400}
+          height={1200}
+          layout='responsive'
         />
       </div>
     </div>
