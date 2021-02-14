@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div>
-      <div style={{ maxWidth: 1200 }}>
+      <div style={{ width: '100vw' }}>
         <Image
           src='https://res.cloudinary.com/dn3baky3u/image/upload/v1580246844/gatsby-cloudinary/evora-gt-side.jpg'
           width={2400}
