@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className='flex items-center'>
       <div className='relative z-0 w-screen'>
         <Image
           className='object-cover object-center pointer-events-none'
@@ -13,8 +13,8 @@ export default function Home() {
         />
       </div>
       <div
-        className='absolute inset-0 z-10 w-screen text-center'
-        style={{ top: '50%' }}
+        className='absolute z-10 content-center w-screen text-center'
+        style={{}}
       >
         text over image
       </div>
