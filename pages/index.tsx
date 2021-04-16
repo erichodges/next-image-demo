@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <div className='absolute z-10 content-center w-screen text-center'>
         <p className='text-white sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-11xl'>
-          sleep deep yoga
+          sleep deep yoga yo dude
         </p>
       </div>
     </div>
