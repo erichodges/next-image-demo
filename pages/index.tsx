@@ -20,6 +20,7 @@ export default function Home() {
         </div>
       </div>
       <div>Test div section here</div>
+      <section>Test div section 2 here</section>
     </div>
   );
 }
