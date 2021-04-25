@@ -21,6 +21,7 @@ export default function Home() {
       </div>
       <div>Test div section here</div>
       <section>Test div section 2 here</section>
+      <section>Test div section 3 here</section>
     </div>
   );
 }
