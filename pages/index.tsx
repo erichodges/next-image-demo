@@ -4,9 +4,7 @@ export default function Home() {
   return (
     <div>
       <div>
-        <p>
-          <h2>Yo! Responsive</h2>
-        </p>
+        <h2>Responsive</h2>
         <Image
           cloudName='dn3baky3u'
           publicId='v1576797449/gatsby-cloudinary/evora-gt-front'
